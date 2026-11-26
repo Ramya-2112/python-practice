@@ -1,0 +1,33 @@
+
+# inputs
+print("Hello world!")
+name= input("enter your name:")
+print ("welcome" + name)
+
+# variables
+
+a=10
+b=20
+c=(a+b)
+print(c)
+
+
+gokul=10
+nikil=20
+G_GOKUL=80
+
+print(gokul,nikil,G_GOKUL)
+
+a="Gokul"
+b='Joey'
+a='10'-
+
+print(a,b,c)
+
+a=10
+b=20
+
+c=90
+d=(a+b+c)
+
+print(d)
