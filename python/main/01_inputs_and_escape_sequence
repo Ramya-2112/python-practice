@@ -1,0 +1,39 @@
+# this is a comment just for noting down the work purpose and python is going to ignore it
+print("HI Ramya")
+print('hello world') # both single and double quotes work
+print('----------------------')
+print('learning python is fun')
+print('----------------------')
+# you can also print image using your imagination like this
+animal={"owl":r"""
+     ,_,
+    (O,O)
+    (   )
+    -"-"-"""}
+print(animal) # we can do like this using rawstring 
+print(" ,_,")
+print("(O,O)")
+print("(   )")
+print('_"_"_') # or simply this
+
+# Escape sequences
+# double and single quote
+print("Hi \"Ramya\"") # \" here the double quote after the slash gets escaped
+print('hi"mari"') # using double quote inside an single will do
+# backslash
+print("You: Be \\\\My\\\\\\\\\\\\ Guest") # for every one slash you need to add two slashes
+# Newline
+print("Apple\n")# adds a new blank line between two messages
+print("Banana")
+print("guva\norange")
+# Tab
+print("lichi\tpineapple") # adds a space between two texts and numbers
+
+print("Your Learning Path:\n\t- Python Basics\n\t- data engineering\n\t- Ai" )
+print("""Your Learning Path:
+- Python Basics
+- data engineering
+- Ai""")
+
+
+
