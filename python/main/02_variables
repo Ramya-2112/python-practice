@@ -1,0 +1,47 @@
+# Variables
+name='Ramya'
+Institute='techpanda'
+language='Python'
+# casting 
+A=str(3)   # change the datatype of variable
+N=float(23)
+print(N)
+print(A)
+# get the type
+print(type(N))
+print(type(A))
+# variable names
+_B='Yummy'   # can start with letter or underscore
+print(_B)    # cannot start with number and should not be a keyword
+
+# assign repeated info in variables so that you can change in one place and it will reflect in whole .
+print("My name is",name)
+print("Iam currently enrolled in",Institute)
+print("I want to become a",language,"expert")
+# assign multiple variables
+A,B,C='dog','cat','lizard'
+print(A) 
+print(B) 
+print(C)
+# Assign single value to multiple variables:
+E=F=G='Fool'
+print(F)
+# Unpack a collection
+Flowers=['Daisy','Sunflower','morning_glory']
+L,M,N=Flowers
+print(N)
+# output variable
+Q='Ram '
+W='seetha '
+E='urmila '
+print(Q,W,E) # comma
+print(Q+W+E) # + operator
+# Global variables
+R='Intelligence' # Global variable outside the function
+def kind():
+    R='Dumb' # local variable inside the function
+    print('you are '+R)
+kind()    
+print(R)
+
+
